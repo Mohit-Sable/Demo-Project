@@ -29,7 +29,6 @@ app.post("/signup",function(req,res){
 
     users.push({
         username : username,
-
         password : password
     })
 
