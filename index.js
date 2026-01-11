@@ -9,7 +9,6 @@ const users=[];
 function auth (req,res,next){
 
     const token = req.headers.token;
-
     const datadecode = jwt.verify(token,JWT_SECRET);
 
     if(datadecode.username){
